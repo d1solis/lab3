@@ -13,8 +13,16 @@ public class ArrayTests {
  
   @Test
   public void testReversed() {
-    int[] input1 = { 6, 7, 8};
+    int[] input1 = { 6, 7, 8 };
     assertArrayEquals(new int[]{ 8, 7, 6 }, ArrayExamples.reversed(input1));
   }
+
+  /* 
+  @Test
+  public void averageWithoutLowest(){
+    double[] input1 = { 3, 15, 18, 3 };
+
+  }
+  */
   
 }
